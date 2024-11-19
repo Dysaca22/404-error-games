@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/404-error-games/static/css/main.f855e6bc.css",
+    "main.js": "/404-error-games/static/js/main.f7b5eac9.js",
+    "static/js/453.3f8c61ae.chunk.js": "/404-error-games/static/js/453.3f8c61ae.chunk.js",
+    "static/media/logo.svg": "/404-error-games/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/404-error-games/index.html",
+    "main.f855e6bc.css.map": "/404-error-games/static/css/main.f855e6bc.css.map",
+    "main.f7b5eac9.js.map": "/404-error-games/static/js/main.f7b5eac9.js.map",
+    "453.3f8c61ae.chunk.js.map": "/404-error-games/static/js/453.3f8c61ae.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.f7b5eac9.js"
+  ]
+}
