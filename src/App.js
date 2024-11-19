@@ -84,7 +84,7 @@ const App = () => {
             </div>
 
             {/* Decorative Elements */}
-            <div className="absolute bottom-10 left-10 animate-ping">
+            <div className="absolute top-32 left-10 animate-ping">
                 <Bug size={48} className="text-red-500 opacity-50" />
             </div>
             <div className="absolute top-10 right-10 hover:animate-none pointer-events-none">
