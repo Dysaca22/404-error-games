@@ -10,7 +10,7 @@ import "./index.css";
 
 export default function App() {
     return (
-        <HashRouter>
+        <HashRouter basename="https://dysaca22.github.io/404-error-games/">
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/game1" element={<Game1 />} />
