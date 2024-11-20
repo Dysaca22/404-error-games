@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/404-error-games/static/css/main.0fb6db9c.css",
-    "main.js": "/404-error-games/static/js/main.af6d0eab.js",
+    "main.css": "/404-error-games/static/css/main.e8f0104c.css",
+    "main.js": "/404-error-games/static/js/main.de6e10b0.js",
     "index.html": "/404-error-games/index.html",
-    "main.0fb6db9c.css.map": "/404-error-games/static/css/main.0fb6db9c.css.map",
-    "main.af6d0eab.js.map": "/404-error-games/static/js/main.af6d0eab.js.map"
+    "main.e8f0104c.css.map": "/404-error-games/static/css/main.e8f0104c.css.map",
+    "main.de6e10b0.js.map": "/404-error-games/static/js/main.de6e10b0.js.map"
   },
   "entrypoints": [
-    "static/css/main.0fb6db9c.css",
-    "static/js/main.af6d0eab.js"
+    "static/css/main.e8f0104c.css",
+    "static/js/main.de6e10b0.js"
   ]
 }
