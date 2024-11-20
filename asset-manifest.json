@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "http://localhost:3000/static/css/main.e8f0104c.css",
-    "main.js": "http://localhost:3000/static/js/main.1e4e5d51.js",
-    "index.html": "http://localhost:3000/index.html",
-    "main.e8f0104c.css.map": "http://localhost:3000/static/css/main.e8f0104c.css.map",
-    "main.1e4e5d51.js.map": "http://localhost:3000/static/js/main.1e4e5d51.js.map"
+    "main.css": "https://dysaca22.github.io/404-error-games/static/css/main.e8f0104c.css",
+    "main.js": "https://dysaca22.github.io/404-error-games/static/js/main.7cd5bf6b.js",
+    "index.html": "https://dysaca22.github.io/404-error-games/index.html",
+    "main.e8f0104c.css.map": "https://dysaca22.github.io/404-error-games/static/css/main.e8f0104c.css.map",
+    "main.7cd5bf6b.js.map": "https://dysaca22.github.io/404-error-games/static/js/main.7cd5bf6b.js.map"
   },
   "entrypoints": [
     "static/css/main.e8f0104c.css",
-    "static/js/main.1e4e5d51.js"
+    "static/js/main.7cd5bf6b.js"
   ]
 }
