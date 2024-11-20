@@ -10,11 +10,13 @@ import "./index.css";
 
 export default function App() {
     return (
-        <HashRouter basename={process.env.PUBLIC_URL}>
+        <HashRouter>
             <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/game1" element={<Game1 />} />
-                <Route path="*" element={<NoPage />} />
+                <Route path="/" element={<Layout />}>
+                    <Route index element={<Home />} />
+                    <Route path="game1" element={<Game1 />} />
+                    <Route path="*" element={<NoPage />} />
+                </Route>
             </Routes>
         </HashRouter>
     );
