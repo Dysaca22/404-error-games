@@ -1,45 +1,48 @@
-import React from "react";
 import { Ghost, Bug } from "lucide-react";
-import "./styles/glitch.css";
+import React from "react";
 
-const App = () => {
-    const games = [
-        {
-            id: 1,
-            title: "404 Quest",
-            description: "Navigate through the lost pages of the internet",
-            image: "https://placeholder.com/300x200",
-            category: "RPG",
-        },
-        {
-            id: 2,
-            title: "Bug Invasion",
-            description: "Fight against corrupted code and system crashes",
-            image: "https://placeholder.com/300x200",
-            category: "Action",
-        },
-        {
-            id: 3,
-            title: "Lost in Code",
-            description: "Solve debugging puzzles in a glitched reality",
-            image: "https://placeholder.com/300x200",
-            category: "Puzzle",
-        },
-        {
-            id: 4,
-            title: "Cyber Chase",
-            description: "Race through broken firewalls and data streams",
-            image: "https://placeholder.com/300x200",
-            category: "Racing",
-        },
-    ];
+import "../styles/glitch.css";
 
+const games = [
+    {
+        id: 1,
+        title: "404 Quest",
+        description: "Navigate through the lost pages of the internet",
+        image: "https://placeholder.com/300x200",
+        category: "RPG",
+    },
+    {
+        id: 2,
+        title: "Bug Invasion",
+        description: "Fight against corrupted code and system crashes",
+        image: "https://placeholder.com/300x200",
+        category: "Action",
+    },
+    {
+        id: 3,
+        title: "Lost in Code",
+        description: "Solve debugging puzzles in a glitched reality",
+        image: "https://placeholder.com/300x200",
+        category: "Puzzle",
+    },
+    {
+        id: 4,
+        title: "Cyber Chase",
+        description: "Race through broken firewalls and data streams",
+        image: "https://placeholder.com/300x200",
+        category: "Racing",
+    },
+];
+
+const Home = () => {
     return (
         <div className="min-h-screen bg-gradient-to-br from-gray-900 to-red-900 text-white overflow-hidden">
             {/* Header */}
             <header className="py-8 text-center relative pointer-events-none flex flex-col gap-2">
                 <div className="flex flex-col gap-2">
-                    <h1 className="text-8xl font-bold glitch" data-text="404">404</h1>
+                    <h1 className="text-8xl font-bold glitch" data-text="404">
+                        404
+                    </h1>
                     <h2 className="text-4xl font-bold">Error Games</h2>
                 </div>
                 <p className="text-xl text-red-300 hover:scale-110 transition-transform duration-300">
@@ -53,7 +56,7 @@ const App = () => {
                     {games.map((game) => (
                         <div
                             key={game.id}
-                            className="bg-black/50 rounded-xl border-2 border-red-600 overflow-hidden hover:transform hover:scale-105 transition-all duration-300 hover:glitch hover:border-red-400 hover:shadow-lg hover:shadow-red-500/50"
+                            className="bg-black/50 rounded-xl overflow-hidden hover:transform hover:scale-105 transition-all duration-300 hover:glitch hover:shadow-lg hover:shadow-red-500/50"
                         >
                             <div className="h-48 bg-gray-800 flex items-center justify-center group">
                                 <Bug className="w-20 h-20 text-red-500 opacity-50 group-hover:rotate-180 transition-transform duration-500" />
@@ -96,4 +99,4 @@ const App = () => {
     );
 };
 
-export default App;
+export default Home;
