@@ -1,4 +1,4 @@
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import ReactDOM from "react-dom/client";
 
 import Layout from "./layouts/Layout";
@@ -10,13 +10,13 @@ import "./index.css";
 
 export default function App() {
     return (
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
-            <Routes path="/" element={<Layout />}>
-                <Route index element={<Home />} />
+        <HashRouter basename={process.env.PUBLIC_URL}>
+            <Routes>
+                <Route path="/" element={<Home />} />
                 <Route path="/game1" element={<Game1 />} />
                 <Route path="*" element={<NoPage />} />
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     );
 }
 
